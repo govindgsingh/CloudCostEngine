@@ -1,0 +1,41 @@
+[
+  {
+    "provider_name": "NimbusCloud",
+    "plan_name": "EnterpriseHybrid",
+    "base_fee": 1000,
+    "storage_prices": [
+      { "rate": 4.0, "threshold": 500 },
+      { "rate": 2.0 }
+    ],
+    "compute_prices": [
+      { "rate": 15.0, "threshold": 50 },
+      { "rate": 10.0 }
+    ]
+  },
+  {
+    "provider_name": "StratoByte",
+    "plan_name": "PayAsYouGo",
+    "base_fee": 0,
+    "storage_prices": [
+      { "rate": 3.5 }
+    ],
+    "compute_prices": [
+      { "rate": 12.0 }
+    ]
+  },
+  {
+    "provider_name": "OrbitalStorage",
+    "plan_name": "TieredSaver",
+    "base_fee": 500,
+    "storage_prices": [
+      { "rate": 5.0, "threshold": 200 },
+      { "rate": 3.0, "threshold": 800 },
+      { "rate": 1.5 }
+    ],
+    "compute_prices": [
+      { "rate": 18.0, "threshold": 20 },
+      { "rate": 8.0, "threshold": 80 },
+      { "rate": 4.0 }
+    ]
+  }
+]
